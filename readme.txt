@@ -1,1 +1,1 @@
-읽어보셈
+Gyeongnam Regional Counseling Center Introduction/Evaluation App
