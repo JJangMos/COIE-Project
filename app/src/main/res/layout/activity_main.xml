@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello A4!"
@@ -14,5 +15,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Jbutton"
+        android:layout_width="139dp"
+        android:layout_height="95dp"
+        android:text="전동환"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="93dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
