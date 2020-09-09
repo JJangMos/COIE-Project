@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
                 Jn.setText("고기");
             }
-        });
+        }
+        );
     }
 }
