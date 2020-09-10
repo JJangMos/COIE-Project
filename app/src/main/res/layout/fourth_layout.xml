@@ -64,15 +64,15 @@
 
     <RatingBar
         android:id="@+id/ratingBar"
-        android:layout_width="230dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="196dp"
-        android:layout_marginTop="144dp"
-        android:scaleX="0.3"
-        android:scaleY="0.3"
+        style="@android:style/Widget.Holo.Light.RatingBar.Small"
+        android:layout_width="78dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="163dp"
+        android:isIndicator="true"
         android:numStars="5"
         android:rating="3.5"
-        android:isIndicator="true"
+        android:stepSize="0.01"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,10 +80,10 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="352dp"
-        android:layout_marginTop="156dp"
-        android:text="3.5"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="161dp"
         android:gravity="center"
+        android:text="3.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
