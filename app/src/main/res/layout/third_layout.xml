@@ -112,7 +112,7 @@
                 android:id="@+id/office_info"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="경남금연지원센터는 기존에 국가금연사업의 사각지대에 있었던 학교 밖 청소년, 여성, 대학생 흡연자를 대상으로 찾아가는 금연 지원 서비스를 제공하여 금연을 촉진하고, 중증, 고도흡연자를 대상으로 금단현상이 발생하는 시기에 의료진과 함께하는 금연캠프를 운영하여 금연성공을 유도하고자 합니다. 지자체 금연사업에 걱극 협력하고 연계 활성화를 추진함으로써 궁극적으로 지역민 흡연율을 감속시키며 건강 소외계층에 대한 건강증진을 목적으로 합니다."
+                android:text=" 경남 금연지원센터는 기존에 국가 금연사업의 사각지대에 있었던 학교 밖 청소년, 여성, 대학생 흡연자를 대상으로 찾아가는 금연 지원 서비스를 제공하여 금연을 촉진하고, 중증, 고도흡연자를 대상으로 금단현상이 발생하는 시기에 의료진과 함께하는 금연캠프를 운영하여 금연성공을 유도하고자 합니다.\n 지자체 금연사업에 적극 협력하고 연계 활성화를 추진함으로써 궁극적으로 지역민 흡연율을 감소시키며 건강 소외계층에 대한 건강증진을 목적으로 합니다."
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
