@@ -13,7 +13,14 @@ Gyeongnam Regional Counseling Center Introduction/Evaluation App
 11. New pull request
 12. Create pull request
 13. 타이틀 아무거나 적고 Create pull request
-sd
 
-asdfasdfaerwa
- dsdsdsds
+
+
+-origin repository가 수정되 었을 경우 pull 하는 법
+ 1. 상대방 repository 드간다.
+ 2. pull  request를 누른다.
+ 3. compare across forks 를 누른다 파란 글씨임
+ 4. base를 내 repo로 하고 head를 origin repo로 한다
+ 5. pull request 요청을 한다.
+ 6. 내 repo에서 merge를 한다.
+ 7. githubdesktop에서 pull을 한다.
