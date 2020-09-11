@@ -24,3 +24,5 @@ Gyeongnam Regional Counseling Center Introduction/Evaluation App
  5. pull request 요청을 한다.
  6. 내 repo에서 merge를 한다.
  7. githubdesktop에서 pull을 한다.
+
+그러하다
