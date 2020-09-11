@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <ImageView
+        android:id="@+id/officePic"
+        android:layout_width="208dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tzuyu22" />
+
+    <TextView
+        android:id="@+id/boss_text"
+        android:layout_width="97dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="372dp"
+        android:gravity="center"
+        android:text="전동환(35년)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/officer1_text"
+        android:layout_width="144dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="428dp"
+        android:text="TextView"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/officer2_text"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="492dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/boss_rating"
+        style="@android:style/Widget.Holo.Light.RatingBar.Small"
+        android:layout_width="78dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="381dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/boss_rating_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:text="3.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boss_review_button"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="368dp"
+        android:text="후기보기 및 평점 남기기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boss_call_button"
+        android:layout_width="69dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="368dp"
+        android:text="상담예약"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="230dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/office_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" 경남 금연지원센터는 기존에 국가 금연사업의 사각지대에 있었던 학교 밖 청소년, 여성, 대학생 흡연자를 대상으로 찾아가는 금연 지원 서비스를 제공하여 금연을 촉진하고, 중증, 고도흡연자를 대상으로 금단현상이 발생하는 시기에 의료진과 함께하는 금연캠프를 운영하여 금연성공을 유도하고자 합니다.\n 지자체 금연사업에 적극 협력하고 연계 활성화를 추진함으로써 궁극적으로 지역민 흡연율을 감소시키며 건강 소외계층에 대한 건강증진을 목적으로 합니다."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

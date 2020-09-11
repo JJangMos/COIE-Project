@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChangwonList"/>
+        <activity android:name=".Office"/>
+        <activity android:name=".ViewReview"/>
+        <activity android:name=".DoReview"/>
     </application>
 
 </manifest>
